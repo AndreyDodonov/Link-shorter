@@ -7,7 +7,7 @@ const morgan = require('morgan');
 
 // mongoose & server start
 const dbhost = config.get('DBHost');
-const PORT = config.get('port') || 5000;
+const PORT = process.env.PORT || 5000;      // config.get('port') || 5000;
 
 async function start() {
     try {
