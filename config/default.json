@@ -1,0 +1,6 @@
+{
+  "DBHost": "mongodb+srv://elKaban:Adolf14@cluster0-knkep.mongodb.net/test?retryWrites=true&w=majority",
+   "port": 5000,
+  "jwtSecret": "very secretToken",
+  "baseUrl": "http://localhost:5000"
+}

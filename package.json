@@ -1,0 +1,40 @@
+{
+  "name": "linkshort",
+  "version": "0.1.0",
+  "description": "link shortening and analytics application",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "cross-env NODE_ENV=production node app.js",
+    "devServ": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run devServ\" \"npm run client\""
+  },
+  "keywords": [
+    "links",
+    "short"
+  ],
+  "author": "Andrew Dodonov <nordhummer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.15.1",
+    "config": "^1.20.1",
+    "cross-env": "^6.0.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "morgan": "^1.9.1",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "concurrently": "^5.0.2",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.2"
+  }
+}
