@@ -1,6 +1,6 @@
 {
   "DBHost": "mongodb+srv://elKaban:Adolf14@cluster0-knkep.mongodb.net/test?retryWrites=true&w=majority",
-  "port": 80,
+  "port": "process.env.PORT",
   "jwtSecret": "very secretToken",
   "baseUrl": "http://https://linkshorter1.herokuapp.com"
 }
