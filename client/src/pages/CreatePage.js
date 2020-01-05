@@ -19,7 +19,6 @@ export const CreatePage = () => {
                 const data = await request('/api/link/generate', 'POST', {from: link}, {
                     Authorization: `Bearer ${auth.token}`
                 });
-                console.log(data);
                 history.push(`/detail/${data.link._id}`)
             } catch (e) {
             }
