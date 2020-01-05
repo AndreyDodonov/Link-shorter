@@ -4,7 +4,6 @@
   "description": "link shortening and analytics application",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --timeout 10000",
     "start": "cross-env NODE_ENV=production node app.js",
     "devServ": "nodemon app.js",
     "client": "npm run start --prefix client",
