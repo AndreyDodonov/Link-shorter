@@ -14,7 +14,7 @@ module.exports.getAll = async (req, res) => {
 
 module.exports.post = async (req, res) => {
     try {
-        const baseUrl = config.get('baseUrl');
+        const baseUrl = "https://linkshorter1.herokuapp.com/";  // config.get('baseUrl'); TODO: <-- check config
         const {from} = req.body;
         const code = shortid.generate();
 
