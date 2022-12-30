@@ -34,7 +34,7 @@
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "concurrently": "^5.0.2",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "nodemon": "^2.0.2"
   }
 }
