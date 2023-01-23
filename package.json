@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "chai-http": "^2.0.1",
+    "chai-http": "^4.3.0",
     "concurrently": "^5.0.2",
     "mocha": "^6.2.2",
     "nodemon": "^2.0.2"
